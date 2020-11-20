@@ -1,0 +1,10 @@
+# 脚本
+打开浏览器,Chrome
+获取页面,http://192.168.40.147:8080/WoniuSales1.4/
+输入,id=username,admin
+输入,id=password,Milor123
+输入,id=verifycode,0000
+点击,xpath=/html/body/div[4]/div/form/div[6]/button
+休眠,2
+断言存在元素,link_text=注销
+关闭浏览器

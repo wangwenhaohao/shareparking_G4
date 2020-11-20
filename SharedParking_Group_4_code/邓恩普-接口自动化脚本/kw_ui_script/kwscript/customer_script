@@ -1,0 +1,29 @@
+# 添加会员
+打开浏览器,Chrome
+获取页面,http://192.168.40.146:8080/WoniuSales1.4/
+输入,id=username,admin
+输入,id=password,Milor123
+输入,id=verifycode,0000
+点击,xpath=/html/body/div[4]/div/form/div[6]/button
+休眠,2
+点击,link_text=会员管理
+输入,id=customerphone,18672768787
+点击,xpath=/html/body/div[4]/div[1]/form[2]/div[2]/button[1]
+休眠,2
+关闭浏览器
+
+# 查询会员
+打开浏览器,Chrome
+获取页面,http://192.168.40.146:8080/WoniuSales1.4/
+输入,id=username,admin
+输入,id=password,Milor123
+输入,id=verifycode,0000
+点击,xpath=/html/body/div[4]/div/form/div[6]/button
+休眠,2
+点击,link_text=会员管理
+输入,id=customerphone,17691219867
+点击,xpath=/html/body/div[4]/div[1]/form[2]/div[2]/button[3]
+休眠,2
+关闭浏览器
+
+# 编辑会员

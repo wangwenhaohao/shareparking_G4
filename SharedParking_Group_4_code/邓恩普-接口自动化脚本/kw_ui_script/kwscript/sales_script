@@ -1,0 +1,14 @@
+# 该脚本为演示脚本
+打开浏览器,Chrome
+获取页面,http://192.168.40.150:8080/SharedParkingPlace/
+输入,id=uname,抢租客0
+输入,id=upass,123
+输入,id=imgcode,0000
+点击,xpath=/html/body/div[2]/div/div/button
+休眠,2
+点击,xpath=/html/body/div/div[1]/div/div[3]/ul/li[2]/a
+切换,xpath=/html/body/div/div[2]/iframe
+休眠,1
+随机选择,xpath=/html/body/div[1]/div/div[2]/select[2]
+休眠,10
+关闭浏览器
