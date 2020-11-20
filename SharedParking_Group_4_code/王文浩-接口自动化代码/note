@@ -1,0 +1,14 @@
+conf:配置文件
+
+logs:日志文件
+
+report：测试报告文件
+
+testdata:测试用例的数据
+
+tools:基础的工具包：文件解析，接口断言
+
+testcase:测试用例
+
+start：API接口测试启动文件
+
